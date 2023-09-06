@@ -1,12 +1,12 @@
 :root {
-  --bgcolor: #0a1014;
-  --text: #f1f5f8;
-  --text-white: #0a1014;
-  --primary: #6d96b6;
-  --secondary: #111b22;
-  --secondary-white: #dde7ee;
-  --accent: #5d8aad;
-  --accent-white: #263b4b;
+  --bgcolor: #081c13;
+  --text: #ebf9f3;
+  --text-white: #081c13;
+  --primary: #61d1a2;
+  --secondary: #113b2a;
+  --secondary-white: #ebf9f3;
+  --accent: #4dcb97;
+  --accent-white: #1d6245;
   --fontSize-1: 1rem;
   --fontSize-2: 1.125rem;
   --fontSize-3: 1.75rem;
@@ -137,7 +137,7 @@ img {
   font-weight: var(--fontWeight-0);
   color: var(--accent-white);
   max-width: 800px;
-  align-self:center ;
+  align-self: center;
 }
 .section_3 {
   display: flex;
@@ -189,10 +189,22 @@ strong {
   max-width: 400px;
 }
 .footer {
-  background-color: #1f2937;
+  background-color: var(--bgcolor);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #e5e7eb;
+  color: var(--text);
   padding: 2em 0;
+}
+.child_1 {
+  background-color: var(--bgcolor);
+}
+.child_2 {
+  background-color: var(--secondary);
+}
+.child_3 {
+  background-color: var(--accent);
+}
+.child_4 {
+  background-color: var(--primary);
 }
